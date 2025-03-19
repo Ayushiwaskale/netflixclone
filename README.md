@@ -1,71 +1,47 @@
-<h1 align="center">MERN Netflix Clone 🎬</h1>
+Description
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+The Movie & TV Show App is a full-stack web application that allows users to discover, search, and watch trailers of their favorite movies and TV shows. Built using modern technologies, this platform provides a seamless experience with a visually appealing user interface, secure authentication, and robust backend support. Users can also explore similar recommendations, track their search history, and enjoy an optimized viewing experience. Whether you are a movie enthusiast or just looking for something new to watch, this app has got you covered!
 
-[Video Tutorial on Youtube](https://youtu.be/0Kzd4k1YuCA)
+Tech Stack
 
-About This Course:
+Frontend: React.js, Tailwind CSS
+Backend: Node.js, Express.js, MongoDB
+Authentication: JSON Web Token (JWT)
 
--   ⚛️ Tech Stack: React.js, Node.js, Express.js, MongoDB, Tailwind
--   🔐 Authentication with JWT
--   📱 Responsive UI
--   🎬 Fetch Movies and Tv Show
--   🔎 Search for Actors and Movies
--   🎥 Watch Trailers
--   🔥 Fetch Search History
--   🐱‍👤 Get Similar Movies/Tv Shows
--   💙 Awesome Landing Page
--   🌐 Deployment
--   🚀 And Many More Cool Features
--   ✅ This is a lot of work. Support my work by subscribing to the [Channel](https://www.youtube.com/@asaprogrammer_)
+Features
 
-### Setup .env file
+Secure authentication with JWT
+Fully responsive UI
+Fetch Movies and TV Shows from TMDB API
+Search for actors and movies
+Watch trailers of movies & shows
+Fetch and display search history
+Get similar movies & TV show recommendations
+Stunning landing page design
+Easy deployment
+And many more exciting features!
 
-```bash
+Setup & Installation
+
+1. Environment Variables
+
+Create a .env file in the root directory and add the following:
+
+MONGO_URI= mongodb+srv://<username>:<password>@cluster0.qjw1x.mongodb.net/netflix_db?retryWrites=true&w=majority&appName=Cluster0
 PORT=5000
-MONGO_URI=your_mongo_uri
+JWT_SECRET=my_really_hard_to_decode_secret
 NODE_ENV=development
-JWT_SECRET=your_jwt_secre
-TMDB_API_KEY=your_tmdb_api_key
-```
+TMDB_API_KEY=eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmMjYyMjBjYTg3MzMzNmMzY2EzZmFkNTA3ZGMzOTI2ZiIsIm5iZiI6MTc0MjI5MDg5OC45NTYsInN1YiI6IjY3ZDkzZmQyNmE3Yjk4MDQzNmM2YWVlMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.hY0vPu7BxejuArLMyvPxfbGxce8zP2Tcy1FrxGHtCEk
 
-### Run this app locally
+2. Run the App Locally
 
-```shell
+Install dependencies:
+npm install
+
+Build the project:
 npm run build
-```
 
-### Start the app
+Start the application:
+npm run dev
 
-```shell
-npm run start
-```
-
-## `Timestamps` for your convenience:
-
--   00:00:00 - App Showcase
--   00:07:50 - Backend Setup
--   00:23:00 - Database (MongoDB) Setup
--   00:35:54 - Signup Logic in Backend
--   00:54:26 - Generate JWT
--   01:02:40 - Logout Logic in Backend
--   01:04:30 - Login Logic in Backend
--   01:08:30 - A Quick Recap
--   01:11:25 - Fetching Movies From API
--   01:42:00 - Fetchin TV Shows From API
--   01:48:50 - Protecting Routes (Middleware)
--   01:59:15 - Search Routes
--   02:28:52 - Frontend Setup
--   02:41:45 - Signup Page and Login Page UI Design
--   02:55:25 - Auth Screen UI Design
--   03:28:30 - Signup, Login, Logout Functionality
--   04:03:45 - Building the Home Screen
--   05:13:00 - Building the Watch Page
--   05:49:50 - Building the Search Page
--   06:05:20 - Building the Search History Page
--   06:14:55 - Building a Custom 404 Page
--   06:18:55 - Testing Our App and Small Fixes
--   06:24:40 - Detailed Deployment Guide
--   06:48:53 - Oops! I almost forgot this... bye
-
-### I'll see you in the next one! 🚀
+Thank You
